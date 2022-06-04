@@ -1,4 +1,4 @@
-package dev.jsoo.trranslationapiserver;
+package dev.jsoo.translationapiserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
