@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TrranslationApiServerApplication {
+public class TranslationApiServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TrranslationApiServerApplication.class, args);
+        SpringApplication.run(TranslationApiServerApplication.class, args);
     }
 
 }

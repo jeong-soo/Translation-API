@@ -11,9 +11,9 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 
 @Configuration
 @EnableWebFlux
-public class ApiCallRouter implements WebFluxConfigurer {
+public class TranslationRouter implements WebFluxConfigurer {
     @Bean
-    public RouterFunction<ServerResponse> boardsRouterBuilder(TranslationHandler translationHandler) {
+    public RouterFunction<ServerResponse> translationRouters(TranslationHandler translationHandler) {
         return RouterFunctions.route()
                 .path("/api", builder -> builder
                         .GET("/translation", translationHandler::translation)
